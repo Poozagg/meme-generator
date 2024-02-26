@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from '../components/Navbar'
+import Meme from '../components/Meme'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>
         <Navbar />
+        <Meme />
       </div>
     </>
   )
