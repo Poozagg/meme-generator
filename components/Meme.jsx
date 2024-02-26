@@ -1,7 +1,7 @@
 export default function Meme() {
   return (
     <main>
-      <form className="form">
+      <div className="form">
           <div>
             <label className="form--label">Top text</label>
             <input
@@ -21,7 +21,7 @@ export default function Meme() {
         <button className="form--button">
           Get a new meme image 🖼️
         </button>
-      </form>
+      </div>
     </main>
   )
 }
