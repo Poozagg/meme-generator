@@ -42,7 +42,7 @@ export default function Meme() {
         {/* <label className="form--label">Top text</label> */}
         <input
           type="text"
-          placeholder="Shut up"
+          placeholder="Top Text"
           className="form--input"
           name="topText"
           onChange={handleChange}
@@ -51,7 +51,7 @@ export default function Meme() {
         {/* <label className="form--label">Bottom text</label> */}
         <input
           type="text"
-          placeholder="and take my money"
+          placeholder="Bottom Text"
           className="form--input"
           name='bottomText'
           onChange={handleChange}
